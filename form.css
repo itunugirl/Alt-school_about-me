@@ -1,0 +1,107 @@
+*{
+margin-top: 0;
+margin-bottom: 0;
+}
+.form-heading{
+margin-bottom: 5px;
+font-weight: 500;
+font-size: 32px;
+line-height: 35px;
+
+}
+.form-subheading{
+font-size: 16px;
+font-weight: 500;
+color: rgb(123, 123, 123);
+margin-bottom: 25px;
+}
+.firstsecond-container{
+  
+display: grid;
+grid-template-columns:250px 250px;
+column-gap: 10px;
+row-gap: 30px;
+}
+.label-name{
+  font-size: 14px;
+  font-weight: 100;
+}
+.label-container{
+  margin-bottom: 3px;
+}
+.asterisk-mark{
+  color: rgb(235, 87, 87);
+}
+.input-style{
+  width: 220px;
+  height: 45px;
+  border: 1px solid rgb(226, 219, 219);
+  border-radius: 4px;
+  padding-left: 10px;
+}
+::placeholder{
+  font-size: 13px;
+  color: rgb(67, 65, 65);
+}
+select{
+  color:rgb(148, 146, 146);
+  background-color: white;
+  font-size: 14px;
+  width: 235px;
+  height: 50px;
+  border: 1px solid rgb(226, 219, 219);
+  border-radius: 4px;
+  padding-left: 10px;
+}
+select option{
+  width: 100px;
+  color: black;
+}
+input[type="date"]{
+  padding-left: 10px;
+  font-size: 15px;
+}
+.agree-heading{
+  width: 420px;
+font-size: 16px;
+font-weight: 200;
+color: rgb(123, 123, 123);
+line-height: 20px;
+margin-bottom: 20px;
+margin-left: 10px;
+}
+a{
+  text-decoration: none;
+  color: rgb(32, 84, 210);
+}
+.proceed-button{
+  padding: 15px 220px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(106, 111, 245);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: opacity 0.15s;
+  margin-left: 10px;
+}
+.proceed-button:hover{
+  filter: drop-shadow(rgb(255, 243, 233)5px 5px 5px) invert(20%);
+}
+fieldset{
+  width: 100%;
+  border: none;
+  justify-content: center;
+  margin-bottom: 20px;
+
+}
+.all-container{
+  width: 400px;
+
+}
+.account-setup{
+  margin-top: 25px;
+  align-self: center;
+  font-size: 14px;
+}
